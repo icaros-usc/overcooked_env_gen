@@ -1,0 +1,11 @@
+[[Map.Features]]
+name="human_adaptiveness"
+low=0
+high=1
+resolution=10
+
+[[Map.Features]]
+name="human_preference"
+low=0
+high=1
+resolution=10

@@ -1,0 +1,6 @@
+visualize=false
+num_cores=4
+num_simulations=50
+algorithm_config="map_elites_baseline.tml"
+elite_map_config="workloads_diff.tml"
+agent_config=["fixed_plan_w_fixed_plan.tml"]

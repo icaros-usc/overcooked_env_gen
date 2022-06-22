@@ -1,0 +1,4 @@
+name="MAPELITES-BASE"
+initial_population=100
+mutation_k=20
+mutation_power=0.2

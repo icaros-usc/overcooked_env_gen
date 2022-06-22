@@ -1,0 +1,18 @@
+
+{
+    "grid":  """XXXXXXXXXXXXXXX
+                X             X
+                X   PXPXSSXX  X
+                X X    X      X
+                X D  1 X   2  X
+                X D    X      X
+                X X    X      X
+                X XXXXXXOOO   X
+                X             X
+                XXXXXXXXXXXXXXX""",
+    "start_order_list": None,
+    "cook_time": 20,
+    "num_items_for_soup": 3,
+    "delivery_reward": 20,
+    "rew_shaping_params": {"PLACEMENT_IN_POT_REW": 2, "DISH_PICKUP_REWARD": 2, "SOUP_PICKUP_REWARD": 5}
+}

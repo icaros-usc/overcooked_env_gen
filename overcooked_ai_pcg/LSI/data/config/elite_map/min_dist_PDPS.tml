@@ -1,0 +1,12 @@
+[[Map.Features]]
+name="pot_dish_shortest_dist"
+low=0
+high=50
+resolution=51
+
+[[Map.Features]]
+name="pot_serve_shortest_dist"
+low=0
+high=50
+resolution=51
+

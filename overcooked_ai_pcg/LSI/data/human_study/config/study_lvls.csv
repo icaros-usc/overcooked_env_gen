@@ -1,0 +1,144 @@
+lvl_type,ID,exp_log_dir,row_index,column_index,matrix_index,lvl_str
+even_workloads-0,4327,2021-01-18_02-16-19_CMAME-workloads-diff-mdp-greedy-vs-qmdp-slurm,5,2,2,"XXXXXXXXXXXXXXX
+O     XX1XXX2XX
+X     X      XX
+X  XXXXXXX X XX
+X   XXXXXX X  X
+X     XXXXXXX X
+X  X  XXXX    X
+D           XXX
+X        XXXXXX
+XXSOPXXXXXXXXXX
+"
+even_workloads-1,1990,2021-01-18_02-16-19_CMAME-workloads-diff-mdp-greedy-vs-qmdp-slurm,6,2,2,"XXXXXXXXXXXXXXX
+XXSXO 2X1 DXOXX
+XX           XX
+XX   PXXXXXX PX
+XX            X
+XX XX XXXXXX  X
+XX       XXXXXX
+XX          XXX
+XX   XXXXX   XX
+XXXXXXXXXXXXXXX
+"
+even_workloads-2,7863,2021-01-18_02-16-19_CMAME-workloads-diff-mdp-greedy-vs-qmdp-slurm,6,1,2,"XXXXXXXXXXXXXXX
+X      X      X
+X      X      X
+X      X X    O
+XXXXXX   XXXX X
+XXXXXXX DXXXX1X
+X             X
+X      XXX2X  X
+X             X
+XXXPXXXXXPXOSXX
+"
+uneven_workloads-0,2584,2021-01-18_02-16-19_CMAME-workloads-diff-mdp-greedy-vs-qmdp-slurm,0,0,0,"XXXXXXXXXXXXXXX
+O 2XX  X      X
+X XXXX X XXX  X
+D PXX  X   X  X
+X X    X   X  X
+S X    X   X  X
+X XXX  X   X  X
+X X1XX X XXX  X
+X             X
+XXXXXXXXXXXXOXX
+"
+uneven_workloads-1,2514,2021-01-18_02-16-19_CMAME-workloads-diff-mdp-greedy-vs-qmdp-slurm,1,0,1,"XXXXXXXXXXXXXXX
+XX1X   X      X
+XX  2  X      X
+XX     X      O
+XXXXX         X
+XXXXXX X XXXX X
+XXX    X    X X
+X   X  XXXXX  X
+X      X      X
+XXXPXXXXXPSDOXX
+"
+uneven_workloads-2,8968,2021-01-18_02-16-19_CMAME-workloads-diff-mdp-greedy-vs-qmdp-slurm,1,0,0,"XXXXXXXXXXXXXXX
+XX X   X      X
+XX     X      X
+XX     X X    O
+XXXXXX        X
+XXXXXX X1XXXX X
+X X    X    2 X
+X      XXXXX  X
+X      X      X
+XXXXPXXXXPDOSXX
+"
+low_team_fluency-0,4889,2021-01-18_20-13-19_CMAME-team-fluency-qmdp-w-greedy,33,24,,"XXXXXXXXXXXXXXX
+XSXXX         X
+X XXXX XXXXX2 X
+O XXX   XPXX  X
+X XX       X  X
+O  X1     XX  X
+XX XXX X   X  X
+XX XXX XXPXXX X
+XX            D
+XXXXXXXXXXXXXXX
+"
+low_team_fluency-1,5820,2021-01-22_20-21-56_CMAME-team-fluency-qmdp-w-greedy-slurm,12,21,,"XXXXXXXXXXXXXXX
+O 2XX         X
+X XXX     XX  X
+S XXX  X   X  X
+X XXX  X   X  X
+O XX1  X   X  X
+X XXX  X   X  X
+D XXXX X XXX  X
+X             X
+XXXXXXXXXXXXPXX
+"
+low_team_fluency-2,9766,2021-01-22_20-21-56_CMAME-team-fluency-qmdp-w-greedy-slurm,13,20,,"XXXXXXXXXXXXXXX
+O 2XX         X
+X XXXX XXXXX  X
+O XXX     XX  X
+X XXX      X  X
+D XX1  X  XX  X
+X XXX  X   X  X
+S XXXX XXXXX  X
+X             X
+XXXXXXXXXXXXXPX
+"
+high_team_fluency-0,3713,2021-01-18_20-13-19_CMAME-team-fluency-qmdp-w-greedy,69,0,,"XXXXXXXXXXXXXXX
+O      X     2X
+X      X     XX
+X     XX      X
+X X XXXXXXXXX X
+X XXXXXXXXXXX X
+X 1           X
+X      X   P  X
+X             X
+XPXDXXXXOXSXXXX
+"
+high_team_fluency-1,630,2021-01-18_20-13-19_CMAME-team-fluency-qmdp-w-greedy,70,3,,"XXXXXXXXXXXXXXX
+XS2 P XXXXXX1XX
+X     XXX    XX
+O  X  XXX    XX
+X     X      XX
+D     XXXX   XX
+X     XXXX   XX
+XX           XX
+X  XOXXXXXXXXXX
+XXXXXXXXXXXXXXX
+"
+high_team_fluency-2,8452,2021-01-18_20-13-19_CMAME-team-fluency-qmdp-w-greedy,70,2,,"XXXXXXXXXXXXXXX
+XXXXO XX  XXXXX
+X1           XX
+XX            X
+X             X
+XXXXX     2 O X
+XXXX         XX
+XXXX   X      X
+XXXXXXXXX     X
+XXXXXXXXXPSPDXX
+"
+trial,,,,,,"XXXXXXXXXXXXXXX
+XXXXOXXXXXXXXXX
+XXXX XXX1 XXXXX
+X      XX XXXXX
+X   P         S
+O            XX
+X       2D X XX
+XX XXX  X  XXXX
+XXXXXXXXX  XXXX
+XXXXXXXXXXXXXXX
+"

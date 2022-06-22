@@ -1,0 +1,11 @@
+[[Map.Features]]
+name="cc_active"
+low=30
+high=100
+resolution=71
+
+[[Map.Features]]
+name="stuck_time"
+low=0
+high=40
+resolution=41

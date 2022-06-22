@@ -1,0 +1,14 @@
+visualize=false
+num_simulations=1000
+algorithm_config="map_elites.tml"
+elite_map_config="demo.tml"
+
+# For SLURM, specify number of cores. The number of workers is calculated as
+# num_cores / num_cores_per_slurm_worker, so we recommend setting num_cores to
+# be a multiple of num_cores_per_slurm_worker.
+slurm=true
+num_cores=60
+num_cores_per_slurm_worker=12
+mem_gib_per_slurm_worker=24
+slurm_worker_walltime="02:00:00"
+slurm_project="nikolaid_548"

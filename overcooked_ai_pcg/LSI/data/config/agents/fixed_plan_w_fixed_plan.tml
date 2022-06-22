@@ -1,0 +1,15 @@
+[Search]
+num_param=32
+type="agent"
+num_iter=1
+multi_iter=false
+
+[Agent1]
+name="fixed_plan_agent"
+
+[Agent2]
+name="fixed_plan_agent"
+
+[joint_plan]
+delivery_horizon=2
+goal_info=true

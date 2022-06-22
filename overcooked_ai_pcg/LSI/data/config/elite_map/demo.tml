@@ -1,0 +1,12 @@
+[[Map.Features]]
+name="bc_demo1"
+low=0
+high=5
+resolution=5
+
+[[Map.Features]]
+name="bc_demo2"
+low=0
+high=5
+resolution=5
+

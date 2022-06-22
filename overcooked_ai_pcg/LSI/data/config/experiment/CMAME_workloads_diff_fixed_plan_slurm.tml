@@ -1,0 +1,12 @@
+visualize=false
+num_simulations=10000
+algorithm_config="cma_me.tml"
+elite_map_config="workloads_diff.tml"
+agent_config=["fixed_plan_w_fixed_plan.tml"]
+
+slurm=true
+num_cores=120
+num_cores_per_slurm_worker=8
+mem_gib_per_slurm_worker=64
+slurm_worker_walltime="24:00:00"
+slurm_project="nikolaid_548"

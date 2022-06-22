@@ -1,0 +1,6 @@
+visualize=false
+num_cores=8
+num_simulations=10
+algorithm_config="map_elites.tml"
+elite_map_config="demo.tml"
+agent_config=["fixed_plan_w_fixed_plan.tml"]
