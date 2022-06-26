@@ -1,6 +1,6 @@
 # Overcooked-AI-PCG
 
-Overcooked-AI-PCG is a Procedural Content Generation project aimining to create Overcooked game levels that would result in diverse behaviors while a human and an AI agent play cooperatively in the environment.
+The Overcooked-AI-PCG procedural content generation project aims to create Overcooked game levels that result in diverse behaviors while a human and an AI agent play cooperatively in the generated environment.
 
 This repository contains the source code for the paper:
 "On the importance of environments in Human-Robot Coordination". Matthew Fontaine*, Ya-Chuan Hsu*, Yulun Zhang*, Bryon Tjanaka and Stefanos Nikolaidis. RSS 2021.
