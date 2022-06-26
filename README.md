@@ -452,3 +452,14 @@ The evaluations can take a long time. To run on USC's HPC, do the following:
   - `evaluator.py`: Overcooked game evaluator
   - `logger.py`: LSI experiment data loggers
   - `data/`: config and log data of LSI experiment
+
+### Citing This Work
+If you use this code for scholarly work, please kindly cite our work using the Bibtex snippet belw.
+```
+@inproceedings{fontaine:rss2021,
+  title={On the Importance of Environments for Human-Robot Coordination},
+  author={Fontaine, Matthew and Hsu, Ya-Chuan and Zhang, Yulun and  Nikolaidis, Stefanos},
+  booktitle={Proceedings of Robotics: Science and Systems},
+  year={2021}
+}
+```
