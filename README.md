@@ -1,16 +1,10 @@
 # Overcooked-AI-PCG
 
-Overcooked-AI-PCG is a Procedural Content Generation project aiming to generate
-Overcooked-Ai game levels that would cause undesirable behaviors while Human and
-AI play cooperatively in the environment.
+Overcooked-AI-PCG is a Procedural Content Generation project aimining to create Overcooked game levels that would result in diverse behaviors while a human and an AI agent play cooperatively in the environment.
 
-## Overcooked-AI
+This repository contains the source code for the paper:
+"On the importance of environments in Human-Robot Coordination". Matthew Fontaine*, Ya-Chuan Hsu*, Yulun Zhang*, Bryon Tjanaka and Stefanos Nikolaidis. RSS 2021.
 
-<p align="center">
-  <!-- <img src="overcooked_ai_js/images/screenshot.png" width="350"> -->
-  <img src="overcooked_ai_py/images/layouts.gif" width="100%">
-  <i>5 of the available layouts. New layouts are easy to hardcode or generate programmatically.</i>
-</p>
 
 ### Introduction
 
@@ -22,13 +16,6 @@ The goal of the game is to deliver soups as fast as possible. Each soup requires
 taking 3 items and placing them in a pot, waiting for the soup to cook, and then
 having an agent pick up the soup and delivering it. The agents should split up
 tasks on the fly and coordinate effectively in order to achieve high reward.
-
-You can **try out the game
-[here](https://humancompatibleai.github.io/overcooked-demo/)** (playing with
-some previously trained DRL agents).
-
-For more information about the environment, please check out the
-[original Overcooked-AI repo](https://github.com/HumanCompatibleAI/overcooked_ai).
 
 ### Install Overcooked-AI
 
@@ -452,6 +439,12 @@ The evaluations can take a long time. To run on USC's HPC, do the following:
   - `evaluator.py`: Overcooked game evaluator
   - `logger.py`: LSI experiment data loggers
   - `data/`: config and log data of LSI experiment
+
+## Credits
+
+The `overcooked_ai_py` directory is adopted from [this project](https://github.com/HumanCompatibleAI/overcooked_ai) by the 
+Center for Human-Compatible AI.
+
 
 ### Citing This Work
 If you use this code for scholarly work, please kindly cite our work using the Bibtex snippet belw.
