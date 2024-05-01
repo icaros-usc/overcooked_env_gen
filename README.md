@@ -120,7 +120,7 @@ python gen_lvl.py
 
 The program will generate a level from random latent vector sampled from normal
 distribution and then use MILP solver defined in
-`overcooked_ai_pcg/milp_repair.py` to fix the level.
+`overcooked_ai_pcg/milp_repair.py` to fix the level. The generated levels will be stored at `overcooked_ai_py/images/pcg_exp`
 
 ### Latent Space Illumination
 
