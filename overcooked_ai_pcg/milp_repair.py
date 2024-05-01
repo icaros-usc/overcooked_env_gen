@@ -272,7 +272,7 @@ def repair_lvl(np_lvl):
 
         def get_idx_from_variables(solution, node_id):
             for i, obj_var in enumerate(objs):
-                if solution.get_value(obj_var[node_id]) == 1:
+                if abs(solution.get_value(obj_var[node_id]) - 1) < 1e-5:
                     return i
             return -1
 
