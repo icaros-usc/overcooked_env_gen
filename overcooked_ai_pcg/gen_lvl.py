@@ -8,6 +8,7 @@ from tqdm import tqdm
 import numpy as np
 import torch
 from torch.autograd import Variable
+from pathlib import Path
 
 from overcooked_ai_pcg import GAN_TRAINING_DIR, LSI_CONFIG_EXP_DIR
 from overcooked_ai_pcg.GAN_training import dcgan
@@ -164,12 +165,13 @@ def main(config, lvl_size, gan_pth_path):
         "gan_milp": [],
         "milp_only": [],
     }
-    for _ in tqdm(range(1000)):
+    for _ in tqdm(range(10)):
         # initialize saving directory
         time_str = time.strftime("%Y-%m-%d_%H-%M-%S")
         base_log_dir = time_str
         log_dir = os.path.join(PCG_EXP_IMAGE_DIR, base_log_dir)
-        os.mkdir(log_dir)
+        Path(log_dir).mkdir(parents=True, exist_ok=True)
+        # os.mkdir(log_dir)
 
         # generate using full pipeline
         G_params = read_gan_param()
