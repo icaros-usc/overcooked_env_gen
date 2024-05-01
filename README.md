@@ -19,7 +19,7 @@ tasks on the fly and coordinate effectively in order to achieve high reward.
 
 ### Install Overcooked-AI
 
-It is useful to setup a conda environment with Python 3.7 using
+1. **Install conda environment**: it is useful to setup a conda environment with Python 3.7 using
 [Anaconda](https://www.anaconda.com/products/individual):
 
 ```
@@ -30,9 +30,20 @@ conda activate overcooked_ai
 To complete the installation after cloning the repo, run the following commands:
 
 ```
-cd overcooked_ai
 pip install -e .
 ```
+
+1. **Install CPLEX:** CPLEX is used for repairing the generated warehouse maps.
+
+   1. Download the free academic version [here](https://www.ibm.com/products/ilog-cplex-optimization-studio).
+   2. Download the installation file for Linux.
+   3. Follow this [guide](https://www.ibm.com/docs/en/icos/12.10.0?topic=v12100-installing-cplex-optimization-studio) to install it. Basically:
+
+   ```
+   chmod u+x INSTALLATION_FILE
+   ./INSTALLATION_FILE
+   ```
+
 
 ### Overcooked-AI Code Structure Overview
 
@@ -216,10 +227,10 @@ are available on your machine to fully utilize the compute you have. If you don'
 powerful local machine to run the experiments, you may also refer to
 [our instruction](#Running-on-HPC) to run experiments on the HPC.
 
-| Experiment | Experiment Config file |
-| ---------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
-| Workload Distributions with Centralized Planning                                               | overcooked_ai_pcg/LSI/data/config/experiment/CMAME_workloads_diff_fixed_plan.tml                  |
-| Directly Searching for Environment using MAP-Elites                                            | overcooked_ai_pcg/LSI/data/config/experiment/MAPELITES-BASE_workloads_diff_fixed_plan.tml         |
+| Experiment                                          | Experiment Config file                                                                    |
+| --------------------------------------------------- | ----------------------------------------------------------------------------------------- |
+| Workload Distributions with Centralized Planning    | overcooked_ai_pcg/LSI/data/config/experiment/CMAME_workloads_diff_fixed_plan.tml          |
+| Directly Searching for Environment using MAP-Elites | overcooked_ai_pcg/LSI/data/config/experiment/MAPELITES-BASE_workloads_diff_fixed_plan.tml |
 
 ##### Tile Distribution Analysis
 
