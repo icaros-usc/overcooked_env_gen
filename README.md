@@ -22,16 +22,16 @@ tasks on the fly and coordinate effectively in order to achieve high reward.
 1. **Install conda environment**: it is useful to setup a conda environment with Python 3.7 using
 [Anaconda](https://www.anaconda.com/products/individual):
 
-```
-conda create -n overcooked_ai python=3.7
-conda activate overcooked_ai
-```
+    ```
+    conda create -n overcooked_ai python=3.7
+    conda activate overcooked_ai
+    ```
 
-To complete the installation after cloning the repo, run the following commands:
+    To complete the installation after cloning the repo, run the following commands:
 
-```
-pip install -e .
-```
+    ```
+    pip install -e .
+    ```
 
 1. **Install CPLEX:** CPLEX is used for repairing the generated warehouse maps.
 
